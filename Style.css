@@ -1,0 +1,26 @@
+.card {
+    display: inline-block;
+    height: 350px;
+    width: 150px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px black;
+    background-color: skyblue;
+
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.Description {
+
+    font-family: 'Courier New';
+}
+
+.card:hover {
+    transition: 2s;
+}
